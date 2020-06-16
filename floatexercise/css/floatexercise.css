@@ -1,0 +1,51 @@
+body{
+    margin:0px;
+    background-color: rebeccapurple;
+}
+
+.container{
+    background-color: rebeccapurple;
+    position:relative;
+    height:100vw;
+}
+
+.sideBar{
+    background-color: skyblue;
+    width:25%;
+    float:left;
+    left:10px;
+    height:90vw;
+    margin:10px;
+    border:solid 5px black;
+}
+
+.main{
+    background-color: red;
+    width:70%;
+    float:right;
+    right:10px;
+    height:90vw;
+    margin:10px;
+    border:solid 5px black;
+}
+
+.header{
+    background-color: yellow;
+    margin:10px;
+    position:sticky;
+    top:0px;
+    width:100%;
+    height:5vw;
+    z-index: 10;
+    border:solid 5px black;
+}
+
+.footer{
+    background-color: pink;
+    position:sticky;
+    width:100%;
+    height:5vw;
+    bottom:0px;
+    border:solid 5px black;
+    margin:10px;
+}
