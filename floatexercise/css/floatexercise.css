@@ -14,7 +14,7 @@ body{
     width:25%;
     float:left;
     left:10px;
-    height:90vw;
+    height:80vh;
     margin:10px;
     border:solid 5px black;
 }
@@ -24,7 +24,7 @@ body{
     width:70%;
     float:right;
     right:10px;
-    height:90vw;
+    height:80vh;
     margin:10px;
     border:solid 5px black;
 }
@@ -35,7 +35,7 @@ body{
     position:sticky;
     top:0px;
     width:100%;
-    height:5vw;
+    height:10vh;
     z-index: 10;
     border:solid 5px black;
 }
@@ -44,7 +44,7 @@ body{
     background-color: pink;
     position:sticky;
     width:100%;
-    height:5vw;
+    height:10vw;
     bottom:0px;
     border:solid 5px black;
     margin:10px;
