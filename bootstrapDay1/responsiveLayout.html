@@ -55,12 +55,23 @@
           font-size: 60px;
         }
 
+        .myborder-bottom{
+          border-bottom: solid 2px;
+        }
+
         span{
           display:inline-block;
         }
 
         li{
           padding-top: 20px;
+        }
+
+        img{
+          width: 400px;
+          height: 400px;
+          display:block;
+          overflow: hidden;
         }
 
     </style>
@@ -106,7 +117,7 @@
           </div>
         </div>
 
-        <div class="row height6">
+        <div class="row height6 myborder-bottom">
           <div class="col-2"></div>
           <div class="col-2">
             <span style="margin-top:20px"><b>Boldness 1</b></span>
@@ -138,14 +149,28 @@
         </div>
 
       <!-- 3rd section from top -->
-      <div class="row">
-        <div class="col-6 bg-info height">
-            picture container1
+      <div class="row height3">
+        <div class="col-2 white"></div>
+        <div class="col-2" style="text-align: center;">
+            <img src="responsiveLayoutImages/awesomeperson.png" alt="awesome person doodle">
+            <div style="margin-left: 55px;">Awesome Person 1</div> 
         </div>
-        <div class="col-6 bg-warning height">
-            picture container2
+        <div class="col-3 white"></div>
+        <div class="col-2" style="text-align: center;">
+          <img src="responsiveLayoutImages/awesomeperson.png" alt="awesome person doodle">
+          <div style="margin-left: 55px;">Awesome Person 2</div>
         </div>
+        <div class="col-3 white"></div>
     </div>
+
+        <!-- footer -->
+        <div class="row height6">
+          <div class="col-3 white"></div>
+          <div class="col-6 yellow"></div>
+          <div class="col-3 white"></div>
+        </div>
+
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
