@@ -1,9 +1,9 @@
 
 .gray{
-    background-color: gray;
+    background-color: white;
 }
 .grey{
-    background-color: gray;
+    background-color: white;
 }
 
 .red{
@@ -35,6 +35,6 @@
 }
 
 .width{
-    width: 50vw;
-    margin-left: 25vw;
+    width: 40vw;
+    margin-left: 30vw;
 }
