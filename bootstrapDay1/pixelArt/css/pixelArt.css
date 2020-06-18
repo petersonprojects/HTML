@@ -24,5 +24,10 @@
 }
 
 .height{
-    height: 15vh;
+    height: 6.25vh;
+}
+
+.width{
+    width: 70vw;
+    margin-left: 15vw;
 }
