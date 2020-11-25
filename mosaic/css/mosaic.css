@@ -29,17 +29,13 @@
 }
 
 .flexContainerRow{
-    
     height:  100%;
-
     display: flex;
     flex-direction: row;
     align-items: stretch;
-    
 }
 
 .flex1{
-
     flex: 1;
 }
 .flex2{
@@ -113,4 +109,7 @@
 
 .borderleft{
     border-left: solid 1px;
+}
+.bordertop{
+    border-top: solid 1px;
 }
